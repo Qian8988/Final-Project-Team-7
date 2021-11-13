@@ -1,0 +1,31 @@
+drop table white_wines;
+
+create table white_wines (
+	fixed_acidity float,
+	volatile_acidity float,
+	citric_acid float,
+	residual_sugar float,
+	cholorides float,
+	free_sulfur_dioxide float,
+	total_sulfur_dioxide float,
+	density float,
+	pH float,
+	sulphates float,
+	alcohol float,
+	quality float);
+	
+Select * FROM red_wines;
+
+SELECT * FROM white_wines;
+
+ALTER TABLE white_wines ADD COLUMN ID SERIAL PRIMARY KEY;
+
+alter table white_wines add color varchar(5) default 'white';
+
+UPDATE white_wines SET ID = ID+20000;
+
+CREATE TABLE all_wines AS (SELECT * FROM red_wines);
+
+INSERT INTO all_wines SELECT * FROM white_wines;
+
+SELECT * FROM all_wines;

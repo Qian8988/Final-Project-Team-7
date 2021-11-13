@@ -1,5 +1,7 @@
 # Final-Project-Team-7
 
+## Using machine learning to predict wine quality
+
 Topic: Predicting wine ratings for red and white wines.
 
 Source Data 1: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
