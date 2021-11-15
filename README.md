@@ -41,3 +41,5 @@ List of Tables and Columns: Red Wine Quality, White Wine Quality
 - 12 - quality (score between 0 and 10)
 
 Model: Classifier - Convert the quality score to "good" or "bad" (no live predictions)
+
+Dashboard: Tableau - Interactive display of model results
