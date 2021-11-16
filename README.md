@@ -65,7 +65,7 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 - Before we split the data for training/testing, we first scaled the data using the StandardScaler (Mean=0, SD=1).  This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
 - The model choices we used in this analysis include the following:
 
-**Logisitic:** _Benefits_ - Simple to implement and effective; it works with feature scaling but does not require it.  _Limitations_ - Poor performance on non-linear data or where features are not highly correlated.
+**Logistic:** _Benefits_ - Simple to implement and effective; it works with feature scaling but does not require it.  _Limitations_ - Poor performance on non-linear data or where features are not highly correlated.
 
 **SVM:** _Benefits_ - Does better at handling a higher number of features.  Useful when classes can be easily separated.  Outliers have less impact.  _Limitations_ - For larger datasets, it requires a large amount of time to process.  In the case of overlapped classes it does nt perform well.
 
@@ -75,11 +75,11 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Gradient Boosted Tree:** _Benefits_ - _Limitations_ - 
 
-**Logisitic-ROS:** _Benefits_ - _Limitations_ -
+**Logisitic-Random Oversampling:** _Benefits_ - _Limitations_ -
 
 **Logistic-SMOTE:** _Benefits_ - _Limitations_ -
 
-**Logistic-Cluster centroid US:** _Benefits_ - _Limitations_ -
+**Logistic-Cluster centroid Under Sampling:** _Benefits_ - _Limitations_ -
 
 **Balanced Random Forest Classifier:** _Benefits_ - _Limitations_ -
 
