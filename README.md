@@ -44,6 +44,7 @@ List of Tables and Columns: Red Wine Quality, White Wine Quality
 
 Model: Classifier - Convert the quality score to "good" or "bad" (no live predictions)
 
+<<<<<<< HEAD
 ### Deliverable 2
 
 
@@ -75,3 +76,6 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 10	Easy Ensemble AdaBoos Classifier
 
 - Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively.  
+=======
+Dashboard: Tableau - Interactive display of model results
+>>>>>>> 2eeb33a7887d8f7fa924e463cf6ccb8bc52a8248
