@@ -73,16 +73,16 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Random Forest:** _Benefits_ - Less prone to overfitting.  _Limitations_ - Features need to have some predictive power or else they wont work.
 
-**Gradient Boosted Tree:**
+**Gradient Boosted Tree:** _Benefits_ - _Limitations_ - 
 
-**Logisitic-ROS:**
+**Logisitic-ROS:** _Benefits_ - _Limitations_ -
 
-**Logistic-SMOTE:**
+**Logistic-SMOTE:** _Benefits_ - _Limitations_ -
 
-**Logistic-Cluster centroid US:**
+**Logistic-Cluster centroid US:** _Benefits_ - _Limitations_ -
 
-**Balanced Random Forest Classifier:**
+**Balanced Random Forest Classifier:** _Benefits_ - _Limitations_ -
 
-**Easy Ensemble AdaBoos Classifier:**
+**Easy Ensemble AdaBoos Classifier:** _Benefits_ - _Limitations_ -
 
 - Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively.  
