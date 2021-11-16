@@ -10,7 +10,7 @@ Source Data 1: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
 
 Source Data 2: https://www.kaggle.com/piyushagni5/white-wine-quality
 
-Question we hope to answer: Which classifier predicted wine ratings the best?
+Question we hope to answer: Which classifier predicted wine ratings the best for red and white wines?
 
 Database Engine: PostGres
 
@@ -62,7 +62,7 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 10 - sulphates,
 11 - alcohol,
 12 - quality (score between 1 = "Good" and 0= "Not Good")
-- Before we split the data for training/testing, we first scaled the data using the StandardScaler.  This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
+- Before we split the data for training/testing, we first scaled the data using the StandardScaler (Mean=0, SD=1).  This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
 - The model choices we used in this analysis include the following:
 
 **Logisitic:** _Benefits_ - Simple to implement and effective; it works with feature scaling but does not require it.  _Limitations_ - Poor performance on non-linear data or where features are not highly correlated.
@@ -85,4 +85,4 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Easy Ensemble AdaBoos Classifier:** _Benefits_ - _Limitations_ -
 
-- Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively.  
+- Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively. The results (accuracy, precision, recall and F1 score) of all the models will have interactive filters to look at red/white wine. 
