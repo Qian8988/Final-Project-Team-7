@@ -79,7 +79,7 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Logistic-SMOTE:** _Benefits_ -  Less likely to overfit. Seems to work well with low dimensional data. _Limitations_ - SMOTE does not take into consideration neighboring examples can be from other classes. This can increase the overlapping of classes and can introduce additional noise.
 
-**Logistic-Cluster centroid Under Sampling:** _Benefits_ - _Limitations_ -
+**Logistic-Cluster Centroid Under Sampling:** _Benefits_ - _Limitations_ -
 
 **Balanced Random Forest Classifier:** _Benefits_ - _Limitations_ -
 
