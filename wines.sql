@@ -57,3 +57,5 @@ UPDATE white_wine SET ID = ID+20000 ;
 CREATE TABLE all_wines AS (SELECT * FROM red_wine);
 INSERT INTO all_wines SELECT * FROM white_wine;
 
+-- Export from pgADmin into csv file
+
