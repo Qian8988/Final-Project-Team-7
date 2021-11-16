@@ -16,7 +16,7 @@ CREATE TABLE red_wine (
 		 quality float
 );
 
--- Import csv file
+-- Import csv file (winequality-red.csv)
 
 select * from red_wine ;
 
@@ -42,7 +42,7 @@ CREATE TABLE white_wine (
 		 quality float
 );
 
--- Import csv file
+-- Import csv file (winequality-white.csv)
 
 select * from white_wine ;
 
@@ -57,5 +57,5 @@ UPDATE white_wine SET ID = ID+20000 ;
 CREATE TABLE all_wines AS (SELECT * FROM red_wine);
 INSERT INTO all_wines SELECT * FROM white_wine;
 
--- Export from pgADmin into csv file
+-- Export from pgADmin into csv file (all_wines.csv)
 
