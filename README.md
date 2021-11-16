@@ -63,16 +63,26 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 11 - alcohol,
 12 - quality (score between 1 = "Good" and 0= "Not Good")
 - Before we split the data for training/testing, we first scaled the data using the StandardScaler.  This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
-- Tho model choices we used in this analysis include the following:
-1	Logisitic,
-2	SVM,
-3	Decision Tree,
-4	Random Forest,
-5	Gradient Boosted Tree,
-6	Logisitic-ROS,
-7	Logistic-SMOTE,
-8	Logistic-Cluster centroid US,
-9	Balanced Random Forest Classifier,
-10	Easy Ensemble AdaBoos Classifier
+- The model choices we used in this analysis include the following:
+
+**Logisitic:** _Benefits_ - Simple to implement and effective; it works with feature scaling but does not require it.  _Limitations_ - Poor performance on non-linear data or where features are not highly correlated.
+
+**SVM:** _Benefits_ - Does better at handling a higher number of features.  Useful when classes can be easily separated.  Outliers have less impact.  _Limitations_ - For larger datasets, it requires a large amount of time to process.  In the case of overlapped classes it does nt perform well.
+
+**Decision Tree:** _Benefits_ - Scaling or normalization of data is not required.  Can handle missing values.  _Limitations_ Prone to overfitting.  Higher time required to train decision trees.
+
+**Random Forest:** _Benefits_ - Less prone to overfitting.  _Limitations_ - Features need to have some predictive power or else they wont work.
+
+**Gradient Boosted Tree:**
+
+**Logisitic-ROS:**
+
+**Logistic-SMOTE:**
+
+**Logistic-Cluster centroid US:**
+
+**Balanced Random Forest Classifier:**
+
+**Easy Ensemble AdaBoos Classifier:**
 
 - Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively.  
