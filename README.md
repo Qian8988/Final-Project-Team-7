@@ -73,11 +73,11 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Random Forest:** _Benefits_ - Less prone to overfitting.  _Limitations_ - Features need to have some predictive power or else they wont work.
 
-**Gradient Boosted Tree:** _Benefits_ - _Limitations_ - 
+**Gradient Boosted Tree:** _Benefits_ - Often provides more predictive accuracy. Lots of flexibility. No data pre-processing required. - _Limitations_ - Training generally takes longer. It will continue improving to minimize all errors. This can overemphasize outliers and cause overfitting.
 
-**Logisitic-Random Oversampling:** _Benefits_ - _Limitations_ -
+**Logisitic-Random Oversampling:** _Benefits_ - Randomly duplicate examples in the minority class. This makes it simple to implement and fast to execute. _Limitations_ - Increase in training time for the classifier and can lead to model overfitting.
 
-**Logistic-SMOTE:** _Benefits_ - _Limitations_ -
+**Logistic-SMOTE:** _Benefits_ -  Less likely to overfit. Seems to work well with low dimensional data. _Limitations_ - SMOTE does not take into consideration neighboring examples can be from other classes. This can increase the overlapping of classes and can introduce additional noise.
 
 **Logistic-Cluster centroid Under Sampling:** _Benefits_ - _Limitations_ -
 
