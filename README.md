@@ -79,10 +79,10 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Logistic-SMOTE:** _Benefits_ -  Less likely to overfit. Seems to work well with low dimensional data. _Limitations_ - SMOTE does not take into consideration neighboring examples can be from other classes. This can increase the overlapping of classes and can introduce additional noise.
 
-**Logistic-Cluster Centroid Under Sampling:** _Benefits_ - _Limitations_ -
+**Logistic-Cluster Centroid Under Sampling:** _Benefits_ - Less likely to overfit. _Limitations_ - The result of the analysis may be less accurate.
 
-**Balanced Random Forest Classifier:** _Benefits_ - _Limitations_ -
+**Balanced Random Forest Classifier:** _Benefits_ - It reduces overfitting problem in decision trees and also reduces the variance and therefore improves the accuracy.  _Limitations_ -  Requires much more computational power and resources. Longer Training Period.
 
-**Easy Ensemble AdaBoos Classifier:** _Benefits_ - _Limitations_ -
+**Easy Ensemble AdaBoos Classifier:** _Benefits_ - Fast, simple, and easy to program. Also, it has the flexibility to be combined with any machine learning algorithm. _Limitations_ - Weak classifiers can lead to overfitting.
 
 - Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively. The results (accuracy, precision, recall, F1 score and feature inportance) of all the models will have interactive filters to look at red/white wine. 
