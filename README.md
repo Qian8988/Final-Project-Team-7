@@ -64,8 +64,9 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 9 - pH,
 10 - sulphates,
 11 - alcohol,
+
+- Target
 12 - quality (score between 1 = "Good" and 0= "Not Good")
-\
 
 - Before we split the data for training/testing, we first scaled the data using the StandardScaler (Mean=0, SD=1). This allows for comparison of all model results. This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
 
