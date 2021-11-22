@@ -53,20 +53,20 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 - Preliminary data pre-processing began with checking the dataset for any null values or missing data.  We then recoded our dataset for wines with a quality score greater than or equal to 7; this creates a binary outcome that we can use for our various machine learning models.  The "id" and "color" columns were removed because these values did not affect the outcome rating.  (**all_models_EDA.ipynb**)
 
 - The features used in this model include the following:
-1 - fixed acidity,
-2 - volatile acidity,
-3 - citric acid,
-4 - residual sugar,
-5 - chlorides,
-6 - free sulfur dioxide,
-7 - total sulfur dioxide,
-8 - density,
-9 - pH,
-10 - sulphates,
-11 - alcohol,
+    1 - fixed acidity,
+    2 - volatile acidity,
+    3 - citric acid,
+    4 - residual sugar,
+    5 - chlorides,
+    6 - free sulfur dioxide,
+    7 - total sulfur dioxide,
+    8 - density,
+    9 - pH,
+    10 - sulphates,
+    11 - alcohol,
 
 - Target
-12 - quality (score between 1 = "Good" and 0= "Not Good")
+    12 - quality (score between 1 = "Good" and 0= "Not Good")
 
 - Before we split the data for training/testing, we first scaled the data using the StandardScaler (Mean=0, SD=1). This allows for comparison of all model results. This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
 
