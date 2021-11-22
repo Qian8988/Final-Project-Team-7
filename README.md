@@ -48,7 +48,7 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 ### Deliverable 2
 
 
-- Preliminary data pre-processing began with checking the dataset for any null values or missing data.  We then recoded our dataset for wines with a quality score greater than or equal to 7; this creates a binary outcome that we can use for our various machine learning models.  The "id" and "color" columns were removed because these values did not affect the outcome rating.
+- Preliminary data pre-processing began with checking the dataset for any null values or missing data.  We then recoded our dataset for wines with a quality score greater than or equal to 7; this creates a binary outcome that we can use for our various machine learning models.  The "id" and "color" columns were removed because these values did not affect the outcome rating.  (**all_models_EDA.ipynb**)
 - The features used in this model include the following:
 1 - fixed acidity,
 2 - volatile acidity,
@@ -63,6 +63,8 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 11 - alcohol,
 12 - quality (score between 1 = "Good" and 0= "Not Good")
 - Before we split the data for training/testing, we first scaled the data using the StandardScaler (Mean=0, SD=1).  This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
+
+- Code run for red and white wines separately (**all_models_red.ipynb and all_models_white.ipynb**)
 - The model choices we used in this analysis include the following:
 
 **Logistic:** _Benefits_ - Simple to implement and effective; it works with feature scaling but does not require it.  _Limitations_ - Poor performance on non-linear data or where features are not highly correlated.
