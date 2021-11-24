@@ -30,7 +30,7 @@
       <h3 class="float-md-start mb-0">Home</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link active" aria-current="page" href="#about">About</a>
-        <a class="nav-link" href="#">Visualizations</a>
+        <a class="nav-link" href="#viz">Visualizations</a>
         <a class="nav-link" href="#">Team</a>
       </nav>
     </div>
@@ -41,7 +41,7 @@
     <div class="card-img-overlay">
       <main class="px-3">
         <h1>Wine Quality</h1>
-        <p class="lead">Predicting Wine Quality with Machine Learning</p>
+        <h2 class="lead">Predicting Wine Quality with Machine Learning</h2>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-black">Get Started</a>
         </p>
@@ -76,25 +76,34 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-<div class="center" id="vizContainer"></div>
+<div class="TableauPlaceholder-fluid" id="viz"></div>
+  <noscript></noscript>
   <script src="https://us-east-1.online.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  <div class="tableauPlaceholder" style="width: 816px; height: 691px; position: relative; overflow: hidden; display: block;">
+    <iframe frameborder="0" marginheight="0" marginwidth="0" title="Data Visualization" allowtransparency="true" allowfullscreen="true" class="tableauViz" 
+    style="display: block; width: 816px; height: 691px; margin: 0px; padding: 0px; border: none;" 
+    src="https://public.tableau.com/app/profile/paula.l6166/viz/WineDashboard_16366700927230/Winestory?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=no&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en-US&amp;:loadOrderID=0:iframeSizedToWindow=true&amp;">
+    </iframe>
+  </div>
+
+    
+  
   <script>
     var viz
     function initViz() {
-      var containerDiv = document.getElementById("vizContainer"),
+      var containerDiv = document.getElementById("viz"),
       url = "https://public.tableau.com/views/WineDashboard_16366700927230/Winestory?:language=en-US&:display_count=n&:origin=viz_share_link";
 
       viz = new tableau.Viz(containerDiv, url);
     }
     initViz();
-  </script>
+  </script> 
+
+  <p>
+    The dashboard is also available on Tableau Public:
+    <a href="https://public.tableau.com/views/WineDashboard_16366700927230/Winestory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link">Wine Story</a>
+  </p>
 
 
   <!-- <div class="container col-lg-12">
