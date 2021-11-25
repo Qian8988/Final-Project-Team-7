@@ -96,3 +96,5 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 - Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively. The results (accuracy, precision, recall, F1 score and feature inportance) of all the models will have interactive filters to look at red/white wine. 
 
 -   Tableau Public link for dashboard so far: https://public.tableau.com/app/profile/paula.l6166/viz/WineDashboard_16366700927230/Winestory
+
+- HTML Bootstrap code is in development with the embedded Tableau code
