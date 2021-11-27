@@ -4,3 +4,9 @@ div.TableauPlaceholder-fluid {
   margin-right: auto ;
   }
 
+  .card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
