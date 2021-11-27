@@ -10,3 +10,7 @@ div.TableauPlaceholder-fluid {
     margin-right: auto;
     width: 50%;
   }
+
+  .topnav-right {
+    float: right;
+  }
