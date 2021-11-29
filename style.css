@@ -13,5 +13,8 @@ div.TableauPlaceholder-fluid {
 
   .topnav-right {
     float: right;
+  }
 
+  .navbar-nav .active {
+    color: whitesmoke;
   }
