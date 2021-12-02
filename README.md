@@ -92,3 +92,11 @@ Looking across the quality rating row there are two features with the highest co
 Looking across the quality rating row for white wine there are two features with the highest correlations. The correlation for pH is positive = 0.44. As the pH level of white wine increases the rating also increases. Desity has the largest negative correlation = -0.31. Quality ratings decrease as density increases.
 
 ![White Wine Heatmap](Resources/white_map1.png)
+
+### Model Results
+
+Of the 10 machine learning models that we tested, Random Forest had the highest accuracy, precision and F1 scores for both red and white wines.
+
+![Red Wine Model Results](Resources/model_results_red.PNG)
+
+![White Wine Model Results](Resources/model_results_white.PNG)
