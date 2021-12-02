@@ -1,10 +1,15 @@
 # Final-Project-Team-7
 
+https://qian8988.github.io/Final-Project-Team-7/
+
 ## Using machine learning to predict wine quality
 
-### Deliverable 1
-
 Topic: Predicting wine ratings for red and white wines.
+
+### Project Overview
+
+The goal of our project was to compare the performance of various machine learning classification models. The data used are quality ratings for red and white wine based on 11 physicochemical measurements in the wines. Red and white 
+                  wine models are analyzed separately. There are 11 features for each wine type. Ten machine learning models were used.
 
 Source Data 1: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
 
@@ -12,7 +17,7 @@ Source Data 2: https://www.kaggle.com/piyushagni5/white-wine-quality
 
 Question we hope to answer: Which classifier predicted wine ratings the best for red and white wines?
 
-Database Engine: PostGres
+Database Engine: PostGreSQL
 
 List of Tables and Columns: Red Wine Quality, White Wine Quality
 
@@ -42,31 +47,12 @@ List of Tables and Columns: Red Wine Quality, White Wine Quality
 
 - 12 - quality (score between 0 and 10)
 
-Model: Classifier - Convert the quality score to "good" or "bad" (no live predictions)
-
-
-### Deliverable 2
+Model: Classifier - Convert the quality score to "good" (rated >= 7) or "not good" (rated < 7)
 
 
 - Red and white wine csv files imported separately then combined into a PostGreSQL database using pgadmin.  (Instructions in the sql code - **wines.sql**). The data were very clean and required no ETL in the SQL code.
 
 - Preliminary data pre-processing began with checking the dataset for any null values or missing data.  We then recoded our dataset for wines with a quality score greater than or equal to 7; this creates a binary outcome that we can use for our various machine learning models.  The "id" and "color" columns were removed because these values did not affect the outcome rating.  (**all_models_EDA.ipynb**)
-
-- The features used in this model include the following:
-    1 - fixed acidity,
-    2 - volatile acidity,
-    3 - citric acid,
-    4 - residual sugar,
-    5 - chlorides,
-    6 - free sulfur dioxide,
-    7 - total sulfur dioxide,
-    8 - density,
-    9 - pH,
-    10 - sulphates,
-    11 - alcohol,
-
-- Target
-    12 - quality (score between 1 = "Good" and 0= "Not Good")
 
 - Before we split the data for training/testing, we first scaled the data using the StandardScaler (Mean=0, SD=1). This allows for comparison of all model results. This created the X_scaled dataset which was converted into X_train, X_test, y_train, and y_test.  
 
@@ -91,9 +77,7 @@ Model: Classifier - Convert the quality score to "good" or "bad" (no live predic
 
 **Balanced Random Forest Classifier:** _Benefits_ - It reduces overfitting problem in decision trees and also reduces the variance and therefore improves the accuracy.  _Limitations_ -  Requires much more computational power and resources. Longer Training Period.
 
-**Easy Ensemble AdaBoos Classifier:** _Benefits_ - Fast, simple, and easy to program. Also, it has the flexibility to be combined with any machine learning algorithm. _Limitations_ - Weak classifiers can lead to overfitting.
-
-- Dashboard Blueprint: Dashboard includes distribution of scores for both red and white wines.  Also includes ability to interactively switch between red and white wines as well as switching between each of the features for red and white wines respectively. The results (accuracy, precision, recall, F1 score and feature inportance) of all the models will have interactive filters to look at red/white wine. 
+**Easy Ensemble AdaBoos Classifier:** _Benefits_ - Fast, simple, and easy to program. Also, it has the flexibility to be combined with any machine learning algorithm. _Limitations_ - Weak classifiers can lead to overfitting. 
 
 -   Tableau Public link for dashboard so far: https://public.tableau.com/app/profile/paula.l6166/viz/WineDashboard_16366700927230/Winestory
 
