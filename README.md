@@ -11,9 +11,9 @@ Topic: Predicting wine ratings for red and white wines.
 The goal of our project was to compare the performance of various machine learning classification models. The data used are quality ratings for red and white wine based on 11 physicochemical measurements in the wines. Red and white 
                   wine models are analyzed separately. There are 11 features for each wine type. Ten machine learning models were used.
 
-Source Data 1: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
+Red Wine Dataset: https://www.kaggle.com/piyushgoyal443/red-wine-dataset
 
-Source Data 2: https://www.kaggle.com/piyushgoyal443/red-wine-dataset
+White Wine Dataset: https://www.kaggle.com/piyushagni5/white-wine-quality
 
 Question we hope to answer: Which classifier predicted wine ratings the best for red and white wines?
 
