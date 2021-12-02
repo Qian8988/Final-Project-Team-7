@@ -13,7 +13,7 @@ The goal of our project was to compare the performance of various machine learni
 
 Source Data 1: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
 
-Source Data 2: https://www.kaggle.com/piyushagni5/white-wine-quality
+Source Data 2: https://www.kaggle.com/piyushgoyal443/red-wine-dataset
 
 Question we hope to answer: Which classifier predicted wine ratings the best for red and white wines?
 
