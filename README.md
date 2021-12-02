@@ -1,4 +1,4 @@
-# Final-Project-Team-7
+# Modeling Wine Quality with Machine Learning
 
 https://qian8988.github.io/Final-Project-Team-7/
 
