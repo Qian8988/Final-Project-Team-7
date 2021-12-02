@@ -80,5 +80,3 @@ Model: Classifier - Convert the quality score to "good" (rated >= 7) or "not goo
 **Easy Ensemble AdaBoos Classifier:** _Benefits_ - Fast, simple, and easy to program. Also, it has the flexibility to be combined with any machine learning algorithm. _Limitations_ - Weak classifiers can lead to overfitting. 
 
 -   Tableau Public link for dashboard so far: https://public.tableau.com/app/profile/paula.l6166/viz/WineDashboard_16366700927230/Winestory
-
-- HTML Bootstrap code is in development with the embedded Tableau code
