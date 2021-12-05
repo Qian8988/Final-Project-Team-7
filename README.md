@@ -101,5 +101,6 @@ Of the 10 machine learning models that we tested, Random Forest had the highest 
 
 ![White Wine Model Results](Resources/model_results_white.PNG)
 
-These results also support what was seen in the model comparison chart used in the Tableau Public dashboard story. The logisitc models (even with over and under sampling because of imbalance) had the lowest performance. Random Forest models performed the best for both red and white wine models.
+These results also support what was seen in the model comparison chart below and used in the Tableau Public dashboard story. The logisitc models (even with over and under sampling because of imbalance) had the lowest performance. Random Forest models performed the best for both red and white wine models. Random Forest models can handle lots of input features and are not influenced by outliers. The data also had features that seemed to have good predictive power as seen in the heat maps and boxplots.
+
 ![Model comparison](Resources/MATRIX_small.png)
